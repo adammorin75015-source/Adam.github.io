@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adam Morin – Portfolio data</title>
+<meta name="description" content="Adam Morin, étudiant en BUT Science des Données (parcours VCOD). Recherche une alternance ou un stage en data en Île-de-France.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a href="#" class="logo">Adam<span>.</span>Morin</a>
+  <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <nav>
+    <a href="#experience">Expérience</a>
+    <a href="#projets">Projets</a>
+    <a href="#competences">Compétences</a>
+    <a href="#formation">Formation</a>
+    <a href="#contact" class="nav-contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ===== INTRO ===== -->
+<section class="intro">
+  <div class="rond rond-1"></div>
+  <div class="rond rond-2"></div>
+  <div class="grille"></div>
+
+  <div class="intro-contenu">
+    <div class="intro-texte">
+      <p class="pastille"><span class="point-vert"></span> Disponible pour une alternance ou un stage</p>
+      <h1>Adam <em>Morin</em></h1>
+      <p class="sous-titre">BUT Science des Données · 3e année · parcours VCOD</p>
+      <p class="accroche">
+        J'aime partir d'un export brut et arriver à un tableau de bord que quelqu'un utilise vraiment.
+        Cet été, j'en ai construit un sous <strong>Power BI</strong> pour une entreprise de transport.
+      </p>
+      <p class="recherche">
+        Alternance au rythme <b>1 semaine entreprise / 1 semaine IUT</b> ou stage en data
+        (analyse, BI, reporting). Île-de-France en priorité, Metz ou Nancy possible.
+      </p>
+      <div class="boutons">
+        <a class="btn" href="CV_Adam_Morin.pdf" download>Télécharger mon CV <span>↓</span></a>
+        <a class="btn btn-contour" href="#contact">Me contacter</a>
+      </div>
+    </div>
+
+    <!-- petite carte façon tableau de bord, juste pour l'illustration -->
+    <div class="carte-dash" aria-hidden="true">
+      <div class="dash-haut">
+        <span></span><span></span><span></span>
+        <p>Suivi exploitation</p>
+      </div>
+      <div class="dash-kpis">
+        <div><b>~500</b><small>commandes / mois</small></div>
+        <div><b>24</b><small>variables</small></div>
+      </div>
+      <div class="barres">
+        <i style="--h:45%"></i><i style="--h:70%"></i><i style="--h:55%"></i><i style="--h:85%"></i>
+        <i style="--h:65%"></i><i style="--h:95%"></i><i style="--h:75%"></i>
+      </div>
+      <div class="dash-bas">
+        <span class="etiquette">Power BI</span><span class="etiquette">DAX</span><span class="etiquette">Power Query</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#experience" class="fleche" aria-label="Descendre">↓</a>
+</section>
+
+<main>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="apparait">
+  <p class="numero">01</p>
+  <h2>Expérience</h2>
+
+  <div class="frise">
+    <article class="exp principal">
+      <div class="exp-date">Juin – août 2026</div>
+      <h3>Stagiaire assistant data</h3>
+      <p class="exp-lieu">Greentainer (groupe Fauvéder) · Fresnes (94)</p>
+      <p>
+        Service exploitation d'un transporteur. Les données de commandes venaient du logiciel
+        AKANEA : environ 500 commandes par mois et 24 variables.
+      </p>
+      <ul>
+        <li>Extraction et nettoyage des exports.</li>
+        <li>Tableau de bord Power BI interactif : volumes, clients, import / export, carte des livraisons.</li>
+        <li>Suivi du CA, de la marge et de la part de sous-traitance, avec des contrôles de qualité des données.</li>
+        <li>En parallèle, appui à l'exploitation : ordres de transport, CMR, pré-facturation.</li>
+      </ul>
+      <div class="tags">
+        <span>Power BI</span><span>DAX</span><span>Power Query</span><span>Excel</span>
+      </div>
+    </article>
+
+    <article class="exp">
+      <div class="exp-date">2021 – 2023</div>
+      <h3>Professeur particulier</h3>
+      <p class="exp-lieu">Indépendant · Paris</p>
+      <p>Cours de maths à plusieurs élèves en même temps, avec des supports faits pour chacun selon son niveau.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ===== PROJETS ===== -->
+<section id="projets" class="apparait">
+  <p class="numero">02</p>
+  <h2>Projets</h2>
+
+  <h3 class="sous-partie">À l'IUT</h3>
+  <div class="projets">
+    <div class="projet">
+      <div class="projet-icone">♥</div>
+      <h4>Données hospitalières</h4>
+      <p>Analyse de données de cathétérisme cardiaque fournies par l'INSERM.</p>
+      <div class="tags"><span>R</span><span>Statistiques</span></div>
+    </div>
+    <div class="projet">
+      <div class="projet-icone">f(x)</div>
+      <h4>Courbes de croissance</h4>
+      <p>Régression polynomiale sur les courbes de croissance de plus de 90 pays.</p>
+      <div class="tags"><span>Régression</span><span>90+ pays</span></div>
+    </div>
+    <div class="projet">
+      <div class="projet-icone">267</div>
+      <h4>Football européen</h4>
+      <p>Intégration et nettoyage d'un jeu de données de 267 variables.</p>
+      <div class="tags"><span>Nettoyage</span><span>267 variables</span></div>
+    </div>
+    <div class="projet">
+      <div class="projet-icone">UFC</div>
+      <h4>UFC</h4>
+      <p>Statistique descriptive sur des données de combats.</p>
+      <div class="tags"><span>Stat. descriptive</span></div>
+    </div>
+  </div>
+
+  <h3 class="sous-partie">Au lycée (STI2D)</h3>
+  <div class="lycee">
+    <figure>
+      <div class="image"><img src="ecommerce.png" alt="Capture du site e-commerce réalisé en terminale" loading="lazy"></div>
+      <figcaption>
+        <span class="annee">Terminale</span>
+        <h4>Site e-commerce</h4>
+        <p>Modélisation UML (cas d'utilisation, séquence) puis tout le front en HTML / CSS,
+        plus de 10 000 lignes au total.</p>
+      </figcaption>
+    </figure>
+    <figure>
+      <div class="image"><img src="sorbonne.jpg" alt="Coupole de l'observatoire de la Sorbonne" loading="lazy"></div>
+      <figcaption>
+        <span class="annee">Première</span>
+        <h4>Coupole de l'observatoire de la Sorbonne</h4>
+        <p>Étude de la transmission de puissance. Il manquait des données, je suis allé compter
+        les dents des engrenages sur place.</p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===== COMPETENCES ===== -->
+<section id="competences" class="apparait">
+  <p class="numero">03</p>
+  <h2>Compétences</h2>
+  <div class="comp">
+    <div class="bloc-comp fonce">
+      <h4>BI / reporting</h4>
+      <div class="tags"><span>Power BI</span><span>DAX</span><span>Power Query</span><span>Excel avancé</span><span>TCD</span><span>Automatisation de reporting</span></div>
+    </div>
+    <div class="bloc-comp">
+      <h4>Bases de données</h4>
+      <div class="tags"><span>SQL</span><span>PostgreSQL</span><span>Access</span><span>Modélisation relationnelle</span></div>
+    </div>
+    <div class="bloc-comp">
+      <h4>Langages</h4>
+      <div class="tags"><span>Python (pandas)</span><span>R (ggplot2)</span><span>SAS</span><span>HTML / CSS</span></div>
+    </div>
+    <div class="bloc-comp">
+      <h4>Méthodes</h4>
+      <div class="tags"><span>ETL</span><span>Nettoyage de données</span><span>Analyse statistique</span></div>
+    </div>
+    <div class="bloc-comp terre">
+      <h4>Langues</h4>
+      <ul class="langues">
+        <li>Français <small>maternelle</small></li>
+        <li>Arabe <small>bilingue</small></li>
+        <li>Anglais <small>avancé</small></li>
+        <li>Espagnol <small>intermédiaire</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FORMATION ===== -->
+<section id="formation" class="apparait">
+  <p class="numero">04</p>
+  <h2>Formation</h2>
+  <div class="formation">
+    <div class="diplome">
+      <span class="annee">2024 – 2027</span>
+      <h4>BUT Science des Données, parcours VCOD</h4>
+      <p>Visualisation et conception d'outils décisionnels · IUT Paris-Rives de Seine, Université Paris Cité</p>
+    </div>
+    <div class="diplome">
+      <span class="annee">2024</span>
+      <h4>Bac STI2D, mention Bien</h4>
+      <p>Spécialité SIN (systèmes d'information et numérique) · Lycée Raspail, Paris</p>
+    </div>
+  </div>
+  <p class="hors">En dehors : football, boxe anglaise, musique, cinéma.</p>
+</section>
+
+</main>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="contact-carte">
+    <h2>On en parle ?</h2>
+    <p>Le plus simple, c'est par mail. Je réponds vite.</p>
+    <a class="gros-mail" href="mailto:adam.morin75015@gmail.com">adam.morin75015@gmail.com</a>
+    <div class="contact-liens">
+      <a href="tel:+33656824823">06 56 82 48 23</a>
+      <a href="https://www.linkedin.com/in/adam-morin-0064a1344/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="CV_Adam_Morin.pdf" download>CV (PDF) ↓</a>
+    </div>
+  </div>
+  <footer>Adam Morin · Paris · 2026</footer>
+</section>
+
+<script>
+  // menu mobile
+  var bouton = document.querySelector('.burger');
+  var menu = document.querySelector('.top nav');
+  bouton.onclick = function () {
+    var ouvert = menu.classList.toggle('ouvert');
+    bouton.setAttribute('aria-expanded', ouvert);
+  };
+  menu.onclick = function () { menu.classList.remove('ouvert'); };
+
+  // ombre sous la barre quand on descend
+  var barre = document.querySelector('.top');
+  window.addEventListener('scroll', function () {
+    barre.classList.toggle('descendu', window.scrollY > 30);
+  });
+
+  // les sections apparaissent au scroll
+  var vues = new IntersectionObserver(function (entrees) {
+    entrees.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('vu');
+        vues.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.apparait').forEach(function (s) { vues.observe(s); });
+</script>
+</body>
+</html>
